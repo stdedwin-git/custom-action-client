@@ -11,9 +11,3 @@ jobs:
         uses: stdedwin-git/reusable-action/build-and-test@master
         with:
           java-version: '17'
-                
-      - name: Upload build artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: build-artifact
-          path: target/*.jar
