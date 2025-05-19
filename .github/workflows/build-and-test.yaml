@@ -17,6 +17,6 @@ jobs:
           java-version: '17'
 
       - name: Build and Test using Custom Action
-        uses: stdedwin-git/reusable-action/build-and-test@master
+        uses: stdedwin-git/reusable-action/build-and-test@V1
         with:
           java-version: '17'
