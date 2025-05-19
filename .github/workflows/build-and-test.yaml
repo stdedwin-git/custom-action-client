@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build and Test using Custom Action
-        uses: stdedwin-git/reusable-action/build-and-test@V1
+        uses: stdedwin-git/reusable-action/build-and-test@master
         with:
           java-version: '17'
