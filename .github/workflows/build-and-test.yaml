@@ -5,7 +5,7 @@ on:
 
 jobs:
   build-and-test:
-    runs-on: local-win64
+    runs-on: self-hosted
     steps:
       - name: Build and Test using Custom Action
         uses: stdedwin-git/reusable-action/build-and-test@V1
